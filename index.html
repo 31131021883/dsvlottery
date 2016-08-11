@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!-- Linh cute DSV -->
+<head>
+	<title>Linh cute</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="vungoclinh.js"></script>
+	<style>
+		nav {
+			height:100%;
+			width:100%;
+			padding:5px;
+		}
+
+		input.large {
+			width:50%;
+			height:70px;
+			font-size: 50px;
+		}
+
+		button.part1 {
+			height:70px;
+			font-size: 45px;
+		}
+	</style>
+</head>
+<body class="container" style="padding:3px">
+	<header class="row">
+		<div class="col-md-4 jumbotron" style="background-color:white;height:100%;padding-left:15px;padding-right:13px;padding-top:0;padding-bottom:0">
+			<a href="images/linh.jpg" target="_blank">
+				<img src="images/Logo.png" class="img-rounded" style="width:100%;height:100%">
+			</a>
+		</div>
+		<div class="col-md-8 jumbotron" style="background-image:url('images/bg.png');text-align:center;padding:30px">
+			<h2>Meteor Ho Chi Minh Meetup</h2>
+			<h2>Designveloper</h2>
+			<h2>Lottery Game :D</h2>
+		</div>
+	</header>
+	<div class="row" style="height:430px">
+		<div class="col-md-4" style="height:100%">
+
+		</div>
+		<div class="col-md-8" style="height:100%;padding:0">
+			<input id="number" class="form-control large" type=number /><br/>
+			<button class="part1 btn btn-success" onclick="part1()">GO!</button>
+			<h3>Result:</h3>
+			<input id="answer1" class="part1 form-control large" type=number style="display:none;"/>
+		</div>
+	</div>
+</body>
+</html>
